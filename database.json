@@ -1,0 +1,16 @@
+{
+    "locations": [
+    {
+        "id": 1,
+        "address": "123 West End Dr",
+        "squareFootage": 3000,
+        "handicapAccessible": true
+    },
+    {
+        "id": 2,
+        "address": "456 East Land Ave",
+        "squareFootage": 1600,
+        "handicapAccessible": false
+    }
+    ]
+}
