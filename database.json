@@ -1,16 +1,99 @@
 {
     "locations": [
-    {
-        "id": 1,
-        "address": "123 West End Dr",
-        "squareFootage": 3000,
-        "handicapAccessible": true
-    },
-    {
-        "id": 2,
-        "address": "456 East Land Ave",
-        "squareFootage": 1600,
-        "handicapAccessible": false
-    }
+        {
+            "id": 1,
+            "address": "123 West End Dr",
+            "squareFootage": 3000,
+            "handicapAccessible": true
+        },
+        {
+            "id": 2,
+            "address": "456 East Land Ave",
+            "squareFootage": 1600,
+            "handicapAccessible": false
+        }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "name": "M&M's",
+            "price": 2.30,
+            "productTypeId": 3
+        },
+        {
+            "id": 2,
+            "name": "Snickers",
+            "price": 1.99,
+            "productTypeId": 3
+        },
+        {
+            "id": 3,
+            "name": "Jolly Ranchers",
+            "price": 3.99,
+            "productTypeId": 1
+        },
+        {
+            "id": 4,
+            "name": "Dumdums",
+            "price": 0.99,
+            "productTypeId": 1
+        },
+        {
+            "id": 5,
+            "name": "Coke",
+            "price": 1.05,
+            "productTypeId": 4
+        },
+        {
+            "id": 6,
+            "name": "Dr. Pepper",
+            "price": 1.05,
+            "productTypeId": 4
+        },
+        {
+            "id": 7,
+            "name": "Juicy Fruit",
+            "price": 1.00,
+            "productTypeId": 2
+        },
+        {
+            "id": 8,
+            "name": "Milkyway",
+            "price": 1.99,
+            "productTypeId": 3
+        }
+    ],
+    "employees": [
+        {
+            "id": 1
+        }
+    ],
+    "productTypes": [
+        {
+            "id": 1,
+            "type": "Hard Candy"
+        },
+        {
+            "id": 2,
+            "type": "Gum"
+        },
+        {
+            "id": 3,
+            "type": "Chocolate"
+        },
+        {
+            "id": 4,
+            "type": "Sodas"
+        }
+    ],
+    "customers": [
+        {
+            "id": 1
+        }
+    ],
+    "purchases": [
+        {
+            "id": 1
+        }
     ]
 }
